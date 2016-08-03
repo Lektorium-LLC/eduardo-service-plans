@@ -1,0 +1,9 @@
+# Python artifacts
+*.py[cod]
+
+# Editor and IDE artifacts
+*.swp
+*.orig
+
+# Internationalization artifacts
+*.mo
