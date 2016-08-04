@@ -1,0 +1,89 @@
+# eduardo service plans translation file
+# Copyright (C) 2016 Lektorium
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Liubov Fomicheva <liubov@lektorium.tv>, 2016
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: eduardo-service-plans\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-03 18:44+0300\n"
+"PO-Revision-Date: 2016-08-03 18:44+0300\n"
+"Last-Translator: Liubov Fomicheva <liubov@lektorium.tv>, 2016\n"
+"Language-Team: Russian <info@lektorium.tv>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: service_plans/admin.py:11
+msgid "History"
+msgstr "История"
+
+#: service_plans/admin.py:53
+msgid "Courses count"
+msgstr "Количество курсов"
+
+#: service_plans/apps.py:7
+msgid "Service Plans and Subscriptions"
+msgstr "Тарифные планы и статусы пользователей"
+
+#: service_plans/models.py:18
+msgid "Basic"
+msgstr "Базовый"
+
+#: service_plans/models.py:19
+msgid "Free service plan"
+msgstr "Бесплатный тарифный план"
+
+#: service_plans/models.py:27
+msgid "Premium"
+msgstr "Премиум"
+
+#: service_plans/models.py:28
+msgid "Paid service plan"
+msgstr "Платный тарифный план"
+
+#: service_plans/models.py:43 service_plans/models.py:97
+msgid "service subscription"
+msgstr "статус пользователя"
+
+#: service_plans/models.py:44
+msgid "service subscriptions"
+msgstr "статусы пользователей"
+
+#: service_plans/models.py:46
+msgid "user"
+msgstr "пользователь"
+
+#: service_plans/models.py:47 service_plans/models.py:101
+msgid "expires"
+msgstr "истекает"
+
+#: service_plans/models.py:48 service_plans/models.py:102
+msgid "comment"
+msgstr "комментарий"
+
+#: service_plans/models.py:50 service_plans/models.py:105
+msgid "created"
+msgstr "создан"
+
+#: service_plans/models.py:51
+msgid "modified"
+msgstr "изменён"
+
+#: service_plans/models.py:54 service_plans/models.py:108
+msgid "premium"
+msgstr "премиум"
+
+#: service_plans/models.py:91
+msgid "service subscription history item"
+msgstr "элемент истории статусов пользователя"
+
+#: service_plans/models.py:92
+msgid "service subscription history"
+msgstr "история статусов пользователя"
