@@ -6,4 +6,6 @@
 *.orig
 
 # Internationalization artifacts
-*.mo
+*.prob
+*.pot
+*.dup
