@@ -38,6 +38,7 @@ class ServiceSubscriptionAdmin(admin.ModelAdmin):
     list_select_related = ('user',)
     list_per_page = 20
     search_fields = ('user__username', 'user__email')
+    actions = None
 
     fields = ('user', 'is_premium', 'comment')
     readonly_fields = ('user',)
