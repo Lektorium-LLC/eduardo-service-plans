@@ -77,8 +77,9 @@ class ServiceSubscription(models.Model):
 def create_service_subscription(sender, instance, created, **kwargs):
     """
     Create service subscription on user creation
+    Skip signals on "raw" creations during test database fixture loading
     """
-    if created:
+    if created and not kwargs.get('raw', False):
         ServiceSubscription.objects.create(user=instance)
 
 

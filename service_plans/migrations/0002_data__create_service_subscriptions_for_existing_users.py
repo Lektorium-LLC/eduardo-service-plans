@@ -2,6 +2,7 @@
 from __future__ import unicode_literals
 
 from django.db import migrations, models
+from django.apps import apps as global_apps
 
 
 def forwards(apps, schema_editor):
@@ -30,6 +31,11 @@ class Migration(migrations.Migration):
     dependencies = [
         ('service_plans', '0001_initial'),
     ]
+
+    # run before any user creation, currently in lms-only commerce app
+    run_before = []
+    if global_apps.is_installed('commerce'):
+        run_before.append(('commerce', '0001_data__add_ecommerce_service_user'))
 
     operations = [
         migrations.RunPython(forwards, backwards)

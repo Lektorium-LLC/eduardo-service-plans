@@ -37,7 +37,7 @@ def load_requirements(*requirements_paths):
 
 setup(
     name='eduardo-service-plans',
-    version='0.1.0',
+    version='0.1.1',
     author='lektorium',
     author_email='info@lektorium.tv',
     url='https://github.com/lektorium-llc/eduardo-service-plans',
